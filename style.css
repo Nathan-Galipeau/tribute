@@ -1,0 +1,45 @@
+#main {
+    background-image: url(https://cms.accuweather.com/wp-content/uploads/2020/06/cropped-GettyImages-940296124-1.jpg);
+  }
+  
+  #img-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  } 
+  
+  #image {
+    width: 100%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+  
+  #img-caption {
+    text-align: center;
+  }  
+  
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    max-height: auto;
+  } 
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #tribute-link {
+    color: black;
+    text-align: center;
+    display: block;
+  }
