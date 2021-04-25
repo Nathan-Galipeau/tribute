@@ -24,8 +24,8 @@
   
   .grid-container {
     display: grid;
-    grid-column-gap: 50px;
-    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+    grid-template-rows: auto fitcontent(500px) auto;
     padding: 10px;
     max-height: auto;
   } 
@@ -42,4 +42,15 @@
     color: black;
     text-align: center;
     display: block;
+    font-size: 22pt;
   }
+  
+  .frame {
+          width: 300px;
+          height: 250px;
+          border: 3px solid #ccc;
+          background: #eee;
+          margin: auto;
+          padding: 15px 10px;
+        }
+  
